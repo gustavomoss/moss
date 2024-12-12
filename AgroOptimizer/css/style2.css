@@ -1,0 +1,82 @@
+.custom-navbar {
+    background: linear-gradient(to bottom left, #007bff, #000000); 
+}
+
+.nav-link{
+    color: white;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000, #007bff);
+}
+
+.navbar-brand img {
+    width: 150px; 
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; 
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.img-fluid.rounded img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #000000; 
+    font-size: 0.9rem;
+    color: white; 
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #007bff; 
+}
+
+footer p {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: white; 
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff; 
+}
+
+footer i {
+    color: white; 
+    transition: transform 0.3s;
+}
+
+footer i:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}

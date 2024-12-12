@@ -1,0 +1,188 @@
+.custom-navbar {
+    background: linear-gradient(to bottom left, #007bff, #000000);
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #000000, #007bff);
+  }
+  
+  .navbar-brand img {
+    width: 150px;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .centro {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .centro-principal {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .video-apresentacao {
+    width: 50%;
+    height: 400px;
+  }
+  
+  .video-apresentacao iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .titulo-subtitulo {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .titulo h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subtitulo h2 {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .botao-saibaMais a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-saibaMais a:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabela-funcionalidade {
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab-titles {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .tab-title {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #555;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+  }
+  
+  .tab-title:hover,
+  .tab-title.active {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .tab-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .tab-content img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .tab-content p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .btn-saibaMais {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-saibaMais:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background: #000000;
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  footer p {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  footer ul {
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer a {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #007bff;
+  }
+  
+  footer i {
+    color: white;
+    transition: transform 0.3s;
+  }
+  
+  footer i:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
